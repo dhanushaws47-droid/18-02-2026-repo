@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE = "dhanushdock1/demo_site:${BUILD_NUMBER}"
         CONTAINER = "demo_site"
-        SERVER = "ec2-user@16.16.186.42"
+        SERVER = "ec2-user@13.62.227.84"
     }
 
     stages {
