@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE = "dhanushdock1/mysite:${BUILD_NUMBER}"
-        CONTAINER = "mysite"
+        IMAGE = "dhanushdock1/demo_site:${BUILD_NUMBER}"
+        CONTAINER = "demo_site"
         SERVER = "ec2-user@51.20.181.210"
     }
 
